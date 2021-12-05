@@ -38,12 +38,15 @@ header{
 .muro{
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     position: fixed;
+    top: 0%;
     width: 100vw;
     height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
-      
+    
+    
+   
 }
 .muro a{
     position: relative;
@@ -55,6 +58,7 @@ header{
     text-decoration: none; 
     font-family: cursive;
 }
+
 .menu{
     position: fixed;
     z-index: 10;
@@ -285,10 +289,10 @@ footer{
     background: white;
     margin-bottom: 60px;
 }
-@media screen and (max-width:800px){
+
+@media screen and (max-width:1200px){
     .menu_navegacion{
-        width: 30vw;
-        
+        width: 100vw;  
     }
     .muro a{
     width: 100vw;
@@ -296,9 +300,12 @@ footer{
     left: -1%;
     padding: 0 10px;
     }
+    
     .menu{
-        right: 20px; 
+       top: 12%;
+       right: 20px;
     }
+    
     .tittle{
         font-size: 40px;
     }
@@ -348,38 +355,7 @@ footer{
         margin-bottom: 40px;
     }
 }
-@media screen and (max-width:850px){
-    .menu_navegacion{
-        width: 100vw;
-    }
-    .muro{
-        width: 100vw;
-    }
-    .menu{
-       top: 12%;
-       right: 20px;
-    }
-    .tittle{
-        font-size: 30px;
-    }
-    .subtitulo{
-        font-size: 30px;
-    }
-    .img-gallery{
-        width: 95%;
-        
-    }
-    .agregar-imagen{
-        width: 95%;
-    }
-    .socialmedia{
-        width: 100%;
-    }
-    .contac-us{
-        width: 95%;
-    }
-}
-@media screen and (max-width:700px){
+@media screen and (max-width:750px){
     .menu_navegacion{
         width: 100vw;
     }
@@ -389,7 +365,7 @@ footer{
     left: -1%;
     padding: 0 10px;
     }
-    }
+    
     .menu{
        top: 12%;
        right: 20px;
@@ -400,10 +376,7 @@ footer{
     .subtitulo{
         font-size: 30px;
     }
-    .img-gallery{
-        width: 95%;
-        
-    }
+   
     .agregar-imagen{
         width: 95%;
     }
@@ -413,7 +386,7 @@ footer{
     .contac-us{
         width: 95%;
     }
-}
+
 @media screen and (max-width:500px){
     .menu_navegacion{
         width: 100vw;
@@ -423,6 +396,9 @@ footer{
     font-size: 90%;
     left: -1%;
     padding: 0 10px;
+    }
+    .menu{
+        right: 20px; 
     }
     .menu{
        top: 12%;
@@ -435,11 +411,11 @@ footer{
         font-size: 30px;
     }
     .img-gallery{
-        width: 75%;
+        width: 95%;
         
     }
     .agregar-imagen{
-        width: 75%;
+        width: 95%;
     }
     .socialmedia{
         width: 100%;
