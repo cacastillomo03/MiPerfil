@@ -14,5 +14,3 @@ window.addEventListener('click', e=>{
             header.classList.toggle("spread");
             }
 });
-
-
